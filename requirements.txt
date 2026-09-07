@@ -1,0 +1,6 @@
+# Public-PDB H12 census + conformational-state scoring
+gemmi         # structure parsing, superposition, RMSD
+matplotlib    # figures
+
+# PyMOL (structural renders) is installed separately, e.g.:
+#   conda install -c conda-forge pymol-open-source

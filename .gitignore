@@ -1,0 +1,17 @@
+# caches / OS
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+
+# secrets / credentials (belt-and-suspenders — none are used here)
+.env
+*.key
+*_token*
+*secret*.json
+
+# large data (this repo runs on the public PDB; don't commit local mirrors)
+*.xtc
+*.dcd
+pdb_sweep/
